@@ -7,6 +7,3 @@ def beolvas(filename):
     file.close()
 
 
-
-beolvas('szavak.txt')
-print(szavak)
