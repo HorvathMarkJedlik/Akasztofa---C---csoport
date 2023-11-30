@@ -1,0 +1,15 @@
+Márk:
+# 1. szövegfájl létrehozása kitalálandó szavakkal.
+# 2. fájl beolvasás egy függvény segítségével.
+# 3. véletlen szó kiválasztása.
+
+
+Barnabás:
+# 4. a betűk helyénekk megjelenítése _-vonalakkal: függvény
+# 5. betű bekérésé majd megvizsgálja hogy a kitalálandó szóba van e ilyen betű
+# 6. a felhasznált betűk kiírása a consolba.
+
+
+Roli:
+# 7. felhasználható próbálkozások számának kiírása.
+# 8. a kudarc kiírása
