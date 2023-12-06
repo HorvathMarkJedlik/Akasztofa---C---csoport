@@ -2,5 +2,6 @@ from akasztofa import *
 
 
 beolvas('szavak.txt')
-print(randomszo(szavak))
+szo_random = randomszo(szavak)
+bontas(szo_random)
 

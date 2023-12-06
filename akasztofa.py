@@ -12,6 +12,10 @@ def beolvas(filename):
 def randomszo(szavak: list):
    szo = choice(szavak)
    return szo
-        
+
+def bontas(szo: str):
+    for betu in szo:
+        print('_', end=' ')
+          
 
 
