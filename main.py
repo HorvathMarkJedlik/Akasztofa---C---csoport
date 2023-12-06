@@ -1,4 +1,6 @@
-from akasztofa import *
+from akasztofa import * 
+
 
 beolvas('szavak.txt')
-print(szavak)
+print(randomszo(szavak))
+
