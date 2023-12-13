@@ -13,3 +13,4 @@ méneskút
 kátyú
 monitor
 robbanómotor
+kecske
