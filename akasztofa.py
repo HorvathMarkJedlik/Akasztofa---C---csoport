@@ -16,8 +16,3 @@ def randomszo(szavak: list):
 def bontas(szo: str):
     for betu in szo:
         print('_', end=' ')
-
-
-          
-
-
