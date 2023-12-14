@@ -6,3 +6,13 @@ def szo_valaszto():
     return random.choice(szavak)
 
 
+def szo_ki_iro(szo, kitalalt_betuk):
+    kimutatás = ""
+    for betu in szo:
+        if betu in kitalalt_betuk:
+            kimutatás += betu
+        else:
+            kimutatás += "_"
+    return kimutatás
+
+
