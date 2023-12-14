@@ -1,19 +1,18 @@
-from random import choice
+import random
 
-szavak: list = []
-
-def beolvas(filename):
-    file = open(filename, 'r', encoding='UTF8')
-    for sor in file:
-        szavak.append(sor.strip())
-    file.close()
+def szo_valaszto():
+    with open("szavak.txt", "r", encoding="utf-8") as file:
+        szavak = file.read().splitlines()
+    return random.choice(szavak)
 
 
-def randomszo(szavak: list):
-   szo = choice(szavak)
-   return szo
-
-def bontas(szo: str):
+def szo_ki_iro(szo, kitalalt_betuk):
+    kimutatás = ""
     for betu in szo:
-        print('_', end=' ')
+        if betu in kitalalt_betuk:
+            kimutatás += betu
+        else:
+            kimutatás += "_"
+    return kimutatás
+
 
