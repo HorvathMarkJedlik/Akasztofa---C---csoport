@@ -16,3 +16,4 @@ def szo_ki_iro(szo, kitalalt_betuk):
     return kimutatás
 
 
+

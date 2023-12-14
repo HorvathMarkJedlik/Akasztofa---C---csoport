@@ -1,7 +1,11 @@
 from akasztofa import * 
 
 
-beolvas('szavak.txt')
-szo_random = randomszo(szavak)
-bontas(szo_random)
+kitalalt_betuk = ''
+szo = ''
+
+szo_valaszto()
+szo_ki_iro(szo, kitalalt_betuk)
+akasztófa()
+
 
